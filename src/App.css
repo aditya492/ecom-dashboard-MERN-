@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+
+
+.nav-ui li{
+  display: inline-block;
+  padding:10px ;
+  font-weight: 500;
+    font-style: oblique;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ui li a{
+  color:whitesmoke;
+  padding: 5px;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-ui{
+  padding: 5px;
+  margin: 0px;
+  background-color:#05386b;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer{
+  position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #05386b;;
+}
+.footer h3{
+  color: whitesmoke;
+}
+.signupButton{
+background: green;
+    border: none;
+    padding: 10px;
+    color: cornsilk;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.inputBox{
+  display: block;
+    margin: 23px;
+    border: none;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 13px;
+    outline: none;
+    font-size: 14px;
+    width: 32%;
+}
+
+.signupButtonPage{
+  border: none;
+  width: 138px;
+  padding: 18px;
+  /* margin: 105px; */
+  margin-left: 111px;
+  font-size: 17px;
+  background: darkgreen;
   color: white;
+  cursor: pointer;
+  border-radius: 19px;
 }
 
-.App-link {
-  color: #61dafb;
+.signupButtonPage:hover{
+background-color: lightgreen;
+color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoutbutton{
+  border: none;
+  width: 138px;
+  padding: 18px;
+  /* margin: 105px; */
+  margin-left: 111px;
+  font-size: 17px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.rightside{
+  text-align: right;
+}
+
+.Toplogo{
+  width: 66px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 20px;
+    height: 59px;
+}
+
+.product{
+  margin-left: 30%;
+}
+
+.errorClass{
+  color: red;
+    font-weight: 600;
+    font-style: italic;
+    display: block;
+    margin-left: 32px;
+    margin-top: -20px;
+}
+
+.productTable{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productTable li{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+
+}
+
+.productTable ul{
+  margin: 0;
+}
+
+.inputSearch{
+  margin: 29px;
+  padding: 10px;
+  /* max-width: 102%; */
+  width: 36%;
+  border-radius: 7px;
 }
